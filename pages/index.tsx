@@ -13,7 +13,7 @@ export default function Home() {
             <div className="flex items-center space-x-8">
               <a href="/" className="text-xl font-bold hover:text-blue-600">AltP3</a>
 
-              {/* About Us */}
+              {/* About Us Dropdown */}
               <div className="relative group">
                 <span className="cursor-pointer hover:text-blue-600">About Us</span>
                 <ul className="absolute hidden group-hover:block bg-white border shadow mt-2 rounded-md min-w-max z-50">
@@ -25,7 +25,7 @@ export default function Home() {
                 </ul>
               </div>
 
-              {/* Courses */}
+              {/* Courses Dropdown */}
               <div className="relative group">
                 <span className="cursor-pointer hover:text-blue-600">Courses</span>
                 <ul className="absolute hidden group-hover:block bg-white border shadow mt-2 rounded-md min-w-max z-50 whitespace-nowrap">
@@ -41,6 +41,7 @@ export default function Home() {
                 </ul>
               </div>
 
+              {/* Static Links */}
               <a href="#" className="hover:text-blue-600">Mocks</a>
               <a href="#" className="hover:text-blue-600">Blogs and Videos</a>
               <a href="#" className="hover:text-blue-600">Testimonials</a>
